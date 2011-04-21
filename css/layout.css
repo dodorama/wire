@@ -1,0 +1,72 @@
+/* @override 
+	http://localhost:8888/wireframe/profiles/wireframe/themes/wire/css/layout.css?ljzotk
+	http://localhost:8888/wireframe/profiles/wireframe/themes/wire/css/layout.css?ljzukl
+*/
+
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  min-width: 320px;
+  text-align: center;
+}
+
+#page-wrapper {
+  text-align: left;
+  width: 93.75%;
+  margin: 0 auto;
+  /*background-image: url(images/grid.gif);*/
+}
+
+/* 480px */
+@media only screen and (min-width: 480px) {
+
+#page-wrapper {
+  width: 460px;
+  margin: 10px auto;
+}
+
+}/*/mediaquery*/
+
+/* 640px */
+@media only screen and (min-width: 640px) {
+
+#page-wrapper {
+  width: 620px;
+  margin: 0 auto;
+}
+
+}/*/mediaquery*/
+
+/* 960px */
+@media only screen and (min-width: 960px) {
+
+.no-sidebars #page-wrapper {
+  width: 720px;
+  margin: 0 auto;
+}
+
+#page {
+  margin: 0 10px;
+}
+
+.sidebar-first #content {
+  width: 620px;
+  float: left;
+  display: inline;
+}
+
+.sidebar-first #sidebar-first {
+  width: 300px;
+  float: right;
+  display: inline;
+}
+
+.no-sidebars #content {
+  width: 700px;
+}
+
+#footer {
+  clear: both;
+}
+
+}/*/mediaquery*/
