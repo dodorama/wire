@@ -71,30 +71,6 @@ display: inline;
   display: none;
 }
 
-/* Projects View */
-
-.view-projects ul {
-  list-style-type: none;
-  margin: 0 -10px;
-}
-
-.view-projects ul li{
-  display: inline;
-  float: left;
-  width: 220px;
-  margin: 0 10px 2em 10px;
-  text-align: center;
-}
-
-.view-projects ul li img{
-  display: block;
-}
-
-.view-projects ul li a{
-  line-height: 3em;
-  display: block;
-}
-
 /* Project Node */
 
 .node-project .field-name-field-project-category{

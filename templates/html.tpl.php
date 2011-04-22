@@ -47,9 +47,27 @@
 
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <!-- maximum-scale=1 to prevent iOs Scale bug http://filamentgroup.com/examples/iosScaleBug/ -->
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+  <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+  <meta http-equiv="cleartype" content="on">
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <!-- Enable media queries in IE -->
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <!-- Better fluid images in IE -->
+  <!--[if (lt IE 8) & (!IEMobile)]>
+  <script src="js/imgsizer.js"></script>
+  <script src="js/script.js"></script>
+  <![endif]-->
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

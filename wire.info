@@ -11,6 +11,8 @@ stylesheets[all][] = css/fontface.css
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
 
+scripts[] = js/helper.js
+
 # features[] = logo
 features[] = name
 # features[] = slogan
