@@ -53,7 +53,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <!-- maximum-scale=1 to prevent iOs Scale bug http://filamentgroup.com/examples/iosScaleBug/ -->
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1, maximum-scale=1">
   <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
   <meta http-equiv="cleartype" content="on">
   <title><?php print $head_title; ?></title>

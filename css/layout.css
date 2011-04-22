@@ -101,8 +101,8 @@ form#contact-site-form {
 /* 960px */
 @media only screen and (min-width: 960px) {
 
-.no-sidebars #page-wrapper {
-  width: 720px;
+.sidebar-first #page-wrapper {
+  width: 960px;
   margin: 0 auto;
 }
 
